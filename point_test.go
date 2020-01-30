@@ -23,9 +23,9 @@ type TestStruct struct {
 	BoolField  bool    `influx:"bool_field"`
 }
 
-var rfcStructs = []TestStructTime{TestStructTime{currentTime, "tag", 1.5, 1, false}}
-var unixStructs = []TestStructTime{TestStructTime{currentTime.Unix(), "tag", 1.5, 1, false}}
-var structs = []TestStruct{TestStruct{"tag", 1.5, 1, false}}
+var rfcStructs = []TestStructTime{{currentTime, "tag", 1.5, 1, false}}
+var unixStructs = []TestStructTime{{currentTime.Unix(), "tag", 1.5, 1, false}}
+var structs = []TestStruct{{"tag", 1.5, 1, false}}
 
 func TestSliceToInfluxPoitns(t *testing.T) {
 	tp, _ := client.NewPoint("", map[string]string{"tag": "tag"}, map[string]interface{}{"float_field": 1.5, "int_field": 1, "bool_field": false}, currentTime)

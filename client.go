@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	_ "github.com/influxdata/influxdb1-client"
+	_ "github.com/influxdata/influxdb1-client" //needed by influx
 	client "github.com/influxdata/influxdb1-client/v2"
 	"github.com/mitchellh/mapstructure"
 )
