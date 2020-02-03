@@ -31,8 +31,8 @@ func (ic *InfluxHTTPClient) Open() error {
 	var err error
 	ic.Client, err = client.NewHTTPClient(client.HTTPConfig{
 		Addr:               ic.addr,
-		Username:           ic.password,
-		Password:           ic.username,
+		Username:           ic.username,
+		Password:           ic.password,
 		InsecureSkipVerify: true,
 	})
 
