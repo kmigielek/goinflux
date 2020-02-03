@@ -1,6 +1,6 @@
 # goinflux
 
-[![Build Status](https://travis-ci.org/kmigielek/goinflux.svg?branch=master)](https://travis-ci.org/kmigielek/goinflux) [![GoDoc](https://godoc.org/github.com/kmigielek/goinflux?status.svg)](https://godoc.org/github.com/kmigielek/goinflux)
+[![Build Status](https://travis-ci.org/kmigielek/goinflux.svg?branch=master)](https://travis-ci.org/kmigielek/goinflux) [![GoDoc](https://godoc.org/github.com/kmigielek/goinflux?status.svg)](https://godoc.org/github.com/kmigielek/goinflux) [![Go Report Card](https://goreportcard.com/badge/github.com/kmigielek/goinflux)](https://goreportcard.com/report/github.com/kmigielek/goinflux)
 
 Golang ORM helper for influx database.
 
