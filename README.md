@@ -1,6 +1,7 @@
 # goinflux
 
 [![Build Status](https://travis-ci.org/kmigielek/goinflux.svg?branch=master)](https://travis-ci.org/kmigielek/goinflux) [![GoDoc](https://godoc.org/github.com/kmigielek/goinflux?status.svg)](https://godoc.org/github.com/kmigielek/goinflux) [![Go Report Card](https://goreportcard.com/badge/github.com/kmigielek/goinflux)](https://goreportcard.com/report/github.com/kmigielek/goinflux)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkmigielek%2Fgoinflux.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkmigielek%2Fgoinflux?ref=badge_shield)
 
 Golang ORM helper for influx database.
 
@@ -52,3 +53,7 @@ Helper exposes influxdb-client as well so it is possible to use features from st
 ```
 client.Client.Query("SELECT * FROM examples")
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkmigielek%2Fgoinflux.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkmigielek%2Fgoinflux?ref=badge_large)
